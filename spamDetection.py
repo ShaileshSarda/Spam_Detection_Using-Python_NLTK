@@ -24,7 +24,7 @@ import re
 
 # Load the dataset of SMS messages or download data from "https://archive.ics.uci.edu/ml/datasets/sms+spam+collection"
 
-dataframe = pd.read_table('/home/shaileshsarda/Desktop/NLP Project/smsspamcollection/SMSSpamCollection', header = None, encoding='utf-8')
+dataframe = pd.read_table('smsspamcollection/SMSSpamCollection', header = None, encoding='utf-8')
 print(dataframe.head())  # View 1st 5 rows
 
 
